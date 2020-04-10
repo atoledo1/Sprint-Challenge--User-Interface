@@ -70,6 +70,36 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container header nav{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.container .top{
+    margin: 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.container .top img{
+    width: 100%;
+}
+
+.container .top .top-text{
+    margin: 20px;
+}
+
+
+.container .bottom{
+    margin: 30px 20px 40px;
+}
 
 .top-content {
     display: flex;
@@ -84,6 +114,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/*middle content */
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +143,39 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes :nth-child(1){
+    background-color:teal;}
+
+.middle-content .boxes :nth-child(2){
+    background-color:gold;}
+
+.middle-content .boxes :nth-child(3){
+    background-color:cadetblue;}
+
+.middle-content .boxes :nth-child(4){
+    background-color:coral;}        
+
+.middle-content .boxes :nth-child(5){
+    background-color:crimson;}
+
+.middle-content .boxes :nth-child(6){
+   background-color:forestgreen;}
+
+.middle-content .boxes :nth-child(7){
+   background-color:darkorchid;}    
+
+.middle-content .boxes :nth-child(8){
+   background-color:hotpink;}
+
+.middle-content .boxes :nth-child(9){
+   background-color:indigo;}
+
+.middle-content .boxes :nth-child(10){
+   background-color:dodgerblue;}        
+
+
+   /*bottom content*/
 
 .bottom-content {
     display: flex;
@@ -144,3 +209,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* media queries 800 */
+@media (max-width: 800px) {
+    .jumbofoto{
+        width: 100%;
+    }
+
+    nav a {
+        border:1px solid lightgrey;
+        padding: 2%;
+    }
+
+    
+}
+
